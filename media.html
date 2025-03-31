@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Page</title>
+</head>
+<body>
+
+    <h1>My Media Page</h1>
+    <h2>Hi everyone!</h2>
+
+    <p> welcome to my media page. I am Oreoluwapo, a passionate learner at AltSchool Africa, pursuing my dream of becoming a skilled fronted engineer. I thrive on challenges and believe in the power of technology to transform lives.</p>
+
+    <picture>
+        <!--Mobile view-->
+        <source srcset="./assets/images/setup3.png" media="(max-width: 768px)">
+    
+        <!--Tablet View-->
+        <source srcset="./assets/images/setup2.png" media="(min-width: 769px) and (max-width: 1024px)">
+
+        <!--Laptop View-->
+        <source srcset="./assets/images/setup1.png" media="(min-width: 1025px)">
+    
+        <img src="./assets/images/my-photo.jpg" alt="my-photo" width="300" height="400">
+        
+    </picture>
+
+    <!-- Audio Element -->
+    <h2> audio </h2>
+    <audio controls>
+        <source src="./assets/video.mp4" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <h2>Watch a Video</h2>
+    <video width="35%" controls>
+        <source src="./assets/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+
+    <br>
+    <a href="https://voluble-cassata-1fd7a9.netlify.app/">Back to Home</a>
+    <a href="http://127.0.0.1:5500/assignment/table.html"> back to table </a>
+</body>
+</html>
